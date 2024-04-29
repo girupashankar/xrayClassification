@@ -1,0 +1,12 @@
+bentoml==1.0.10
+torchvision==0.14.1
+joblib==1.2.0
+tqdn
+pip-chill==1.0.1
+wincertstore==0.2
+dvc
+mlflow
+ipykernel
+pandas 
+numpy
+seaborn

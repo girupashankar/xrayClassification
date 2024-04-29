@@ -1,0 +1,23 @@
+bentoml==1.0.10
+torchvision==0.14.1
+joblib==1.2.0
+tqdn
+pip-chill==1.0.1
+wincertstore==0.2
+dvc
+mlflow
+ipykernel
+pandas 
+numpy
+seaborn
+# testing
+# test cases
+pytest==7.1.3
+# create different env to test
+tox==3.25.1
+# linting and formatting 
+flake8==5.0.4
+mypy==0.971
+black==22.8.0
+
+-e .
