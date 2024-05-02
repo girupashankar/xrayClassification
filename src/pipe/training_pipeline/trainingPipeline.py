@@ -2,7 +2,7 @@ import sys
 from src.components.dataIngestion import DataIngestion
 from src.entity.artifactEntity import DataIngestionArtifact
 from src.entity.configEntity import DataIngestionConfig
-from src.exceptions import exception
+from src.exceptions.exception import XrayException
 from src.logging import logging
 
 class TrainPipeline:
@@ -23,7 +23,7 @@ class TrainPipeline:
             
             return data_ingestion_artifact
         except Exception as e:
-            raise exception(e, sys)
+            raise XrayException(e, sys)
 
 if __name__ == "__main__":
     train_pipeline=TrainPipeline()
